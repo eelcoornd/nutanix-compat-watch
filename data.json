@@ -5,7 +5,7 @@
         "aos": "7.6.0.6",
         "ahv": "AHV-11.2.0.2"
       },
-      "is_new": true,
+      "is_new": false,
       "changed_at": "2026-09-05 17:52 UTC",
       "check_error": null
     },
@@ -14,10 +14,10 @@
         "aos": "7.6.0.6",
         "ahv": "AHV-11.2.0.2"
       },
-      "is_new": true,
+      "is_new": false,
       "changed_at": "2026-09-05 17:52 UTC",
       "check_error": null
     }
   },
-  "last_checked": "2026-09-05 17:52 UTC"
+  "last_checked": "2026-09-05 17:54 UTC"
 }
