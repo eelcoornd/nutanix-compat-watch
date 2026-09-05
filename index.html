@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nutanix Compatibility Watch</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: -apple-system, Segoe UI, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 16px; color: #1a1a1a; }
+  h1 { font-size: 1.4rem; }
+  table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #ddd; }
+  th { background: #f5f5f5; }
+  code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; }
+  .new { background: #ffe58f; color: #7a4a00; padding: 2px 8px; border-radius: 4px; font-size: 0.85em; font-weight: 600; }
+  .err { color: #b00; font-size: 0.85em; margin-top: 4px; }
+  .meta { color: #666; font-size: 0.9em; margin-top: 1.5rem; }
+  a { color: #0969da; }
+</style>
+</head>
+<body>
+  <h1>Nutanix Platform Compatibility Watch</h1>
+  <p>Latest supported AOS / recommended AHV version per platform (source: Nutanix Compatibility &amp; Interoperability Matrix, AHV hypervisor). Checked weekly.</p>
+  <table>
+    <thead><tr><th>Platform</th><th>Latest AOS</th><th>Recommended AHV</th><th></th></tr></thead>
+    <tbody>
+        <tr>
+          <td>NX-1175S-G8 (Ice Lake, AHV)</td>
+          <td><code>7.6.0.6</code></td>
+          <td><code>AHV-11.2.0.2</code></td>
+          <td><span class="new">NEW as of 2026-09-05 17:52 UTC</span></td>
+        </tr>
+        <tr>
+          <td>NX-1175S-G10 (Intel Xeon 6505P / Granite Rapids, AHV)</td>
+          <td><code>7.6.0.6</code></td>
+          <td><code>AHV-11.2.0.2</code></td>
+          <td><span class="new">NEW as of 2026-09-05 17:52 UTC</span></td>
+        </tr></tbody>
+  </table>
+  <p class="meta">Last checked: 2026-09-05 17:52 UTC &middot;
+    <a href="https://portal.nutanix.com/page/compatibility-interoperability-matrix/platform-compatibility?selectedHypervisorTypes=AHV&selectedHardwareVendors=Nutanix&selectedHardwares=NX-1175S-G8&selectedAos=all&selectedHypervisors=all">source matrix (G8)</a>
+    &middot; <a href="https://portal.nutanix.com/page/compatibility-interoperability-matrix/platform-compatibility?selectedHypervisorTypes=AHV&selectedHardwareVendors=Nutanix&selectedHardwares=NX-1175S-G10&selectedAos=all&selectedHypervisors=all">source matrix (G10)</a>
+    &middot; <a href="https://github.com/eelcoornd/nutanix-compat-watch">repo / history</a>
+  </p>
+</body>
+</html>
