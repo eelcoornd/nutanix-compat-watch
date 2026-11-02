@@ -2,22 +2,22 @@
   "platforms": {
     "NX-1175S-G8": {
       "latest": {
-        "aos": "7.6.0.8",
-        "ahv": "AHV-11.2.0.4"
+        "aos": "7.6.0.10",
+        "ahv": "AHV-11.2.0.6"
       },
-      "is_new": false,
-      "changed_at": "2026-10-05 15:50 UTC",
+      "is_new": true,
+      "changed_at": "2026-11-02 16:58 UTC",
       "check_error": null
     },
     "NX-1175S-G10": {
       "latest": {
-        "aos": "7.6.0.8",
-        "ahv": "AHV-11.2.0.4"
+        "aos": "7.6.0.10",
+        "ahv": "AHV-11.2.0.6"
       },
-      "is_new": false,
-      "changed_at": "2026-10-05 15:50 UTC",
+      "is_new": true,
+      "changed_at": "2026-11-02 16:58 UTC",
       "check_error": null
     }
   },
-  "last_checked": "2026-10-26 14:05 UTC"
+  "last_checked": "2026-11-02 16:58 UTC"
 }
